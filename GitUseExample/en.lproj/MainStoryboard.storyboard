@@ -25,11 +25,18 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="CIR-Ux-dYW"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after merging" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbR-cz-727">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="e9a-RY-spu" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" type="default" id="Gd6-Al-QWj"/>
                             <constraint firstItem="e9a-RY-spu" firstAttribute="top" secondItem="5" secondAttribute="top" constant="480" id="WQh-Eu-My6"/>
+                            <constraint firstItem="kbR-cz-727" firstAttribute="centerX" secondItem="5" secondAttribute="centerX" type="default" id="kF2-rf-mQh"/>
+                            <constraint firstItem="kbR-cz-727" firstAttribute="centerX" secondItem="e9a-RY-spu" secondAttribute="centerX" type="default" id="kqy-ra-dbk"/>
+                            <constraint firstItem="kbR-cz-727" firstAttribute="top" secondItem="5" secondAttribute="top" constant="407" id="ph1-oB-zAh"/>
                         </constraints>
                     </view>
                 </viewController>
